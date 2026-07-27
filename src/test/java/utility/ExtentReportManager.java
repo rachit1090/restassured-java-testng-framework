@@ -81,14 +81,6 @@ public class ExtentReportManager
 		}
 	}
 	
-	public static void logError(String message)
-	{
-		if (test != null)
-		{
-			test.error(message);
-		}
-	}
-	
 	public static void logException(Throwable exception)
 	{
 		if (test != null)
